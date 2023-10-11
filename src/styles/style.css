@@ -156,7 +156,7 @@ h3 {
 
 .video-text {
   text-align: center;
-  margin: 27px 0 30px;
+  margin: 28px 0 30px;
 }
 
 .video {
@@ -165,8 +165,14 @@ h3 {
   margin-right: auto;
   display: block;
   position: relative;
-  top: 182px;
-  margin-top: -180px;
+}
+
+.content_video {
+  margin-bottom: -93px;
+}
+
+.content_video .container {
+  padding-bottom: 0;
 }
 
 .content_navigation {
@@ -217,7 +223,10 @@ h3 {
 
 .navigation-item h3 {
   font-size: 34px;
-  margin: 0 0 16px 0;
+  margin: 0 0 12px 0;
+}
+.navigation-item .white {
+  display: inline-block;
 }
 
 .navigation-item:nth-child(1) {
