@@ -141,9 +141,9 @@ h3 {
   align-items: center;
   background: var(--Primary, #FE8A02);
   width: 100px;
-  height: 25px;
-  margin-top: 19px;
-  left: 570px;
+  height: 26px;
+  margin-top: 23px;
+  left: 569px;
   position: relative;
 }
 
@@ -168,7 +168,7 @@ h3 {
 }
 
 .content_video {
-  margin-bottom: -93px;
+  margin-bottom: -90px;
 }
 
 .content_video .container {
@@ -223,10 +223,7 @@ h3 {
 
 .navigation-item h3 {
   font-size: 34px;
-  margin: 0 0 12px 0;
-}
-.navigation-item .white {
-  display: inline-block;
+  margin: 0 0 15px 0;
 }
 
 .navigation-item:nth-child(1) {
@@ -296,9 +293,19 @@ h2.light {
 }
 
 .text {
-  width: 540px;
+  flex: 1 1;
   margin: 0;
-  line-height: 25.6px; /* 160% */
+}
+
+.text-columns {
+  display: flex;
+  gap: 30px;
+}
+.text-column {
+  flex: 1 1;
+}
+.text-column *:first-of-type {
+  margin-top: 0;
 }
 
 h4 {
@@ -379,6 +386,7 @@ h4.light {
   align-items: center;
   height: 190px;
   margin-bottom: 60px;
+  margin-top: -3px;
 }
 
 .inscription {
@@ -401,10 +409,9 @@ h4.light {
   display: block;
   position: relative;
   width: 415px;
-  height: 47px;
+  height: 45px;
   border: 1px solid #E3E3E3;
   background: var(--White, #FFF);
-  padding-left: 15px;
   outline: transparent;
 }
 
@@ -413,6 +420,7 @@ h4.light {
   font-size: 13.1px;
   line-height: 160%; /* 20.96px */
   opacity: 0.2;
+  padding-left: 5px;
 }
 
 button::before {
@@ -429,7 +437,7 @@ button::before {
 
 .button {
   position: relative;
-  height: 50px;
+  height: 48px;
   width: 70px;
   background-color: var(--Primary);
   border: none;
